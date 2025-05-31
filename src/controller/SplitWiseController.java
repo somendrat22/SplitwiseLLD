@@ -44,8 +44,13 @@ public class SplitWiseController {
                 System.out.println("Wrong option entered. Enter value again");
                 continue;
             }
+            System.out.print("Sandeep");
 
-            System.out.println("Are you satisfied?(Yes/No)");
+
+
+
+
+
         }
     }
 }
