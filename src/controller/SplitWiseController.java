@@ -50,5 +50,6 @@ public class SplitWiseController {
     }
     System.out.println("Pratyush Gupta");
     int i=0;
-    
+    int y = 0;
+
 }
