@@ -6,7 +6,4 @@ import java.util.HashMap;
 
 public class UserDB {
     HashMap<Integer, User> userMap;
-    public UserDB(){
-        this.userMap = new HashMap<>();
-    }
-}
+  

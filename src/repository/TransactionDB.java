@@ -6,7 +6,4 @@ import java.util.HashMap;
 
 public class TransactionDB {
     HashMap<Integer, Transaction> transactionMap;
-    public TransactionDB(){
-        this.transactionMap = new HashMap<>();
-    }
-}
+    pu

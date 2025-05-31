@@ -9,12 +9,3 @@ public class GroupDB {
     public GroupDB(){
         this.groupMap = new HashMap<>();
     }
-
-    public int tellTotalGroups(){
-        return this.groupMap.size();
-    }
-
-    public void saveGroup(Group group){
-        groupMap.put(group.getId(), group);
-    }
-}
