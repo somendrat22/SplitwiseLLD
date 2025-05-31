@@ -45,7 +45,8 @@ public class SplitWiseController {
                 continue;
             }
 
-            System.out.println("Are you satisfied?(Yes/No)");
+//            System.out.println("Are you satisfied?(Yes/No)");
+//            System.out.println();
         }
     }
 }
