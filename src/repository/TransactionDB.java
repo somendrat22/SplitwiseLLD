@@ -9,4 +9,6 @@ public class TransactionDB {
     public TransactionDB(){
         this.transactionMap = new HashMap<>();
     }
+    System.out.println();
+
 }
