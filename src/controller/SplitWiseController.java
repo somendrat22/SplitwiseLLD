@@ -24,16 +24,16 @@ public class SplitWiseController {
     public void startProgram(){
         while(true){
             System.out.println("Hey What you want to do ? Select below options");
-            System.out.println(
-                    "1. create-group\n" +
-                    "2. Do transaction in a group\n" +
-                    "3. create user\n" +
-                    "4. Show which users owes how much amount in the group and whom he owes");
-            int opt = scn.nextInt();
-            if(opt == 1){
-                System.out.println("User selected opt 1 i.e. group");
-                groupService.createGroup(scn);
-                System.out.println("Group created successfully");
-            }else 
+//            System.out.println(
+//                    "1. create-group\n" +
+//                    "2. Do transaction in a group\n" +
+//                    "3. create user\n" +
+//                    "4. Show which users owes how much amount in the group and whom he owes");
+//            int opt = scn.nextInt();
+//            if(opt == 1){
+//                System.out.println("User selected opt 1 i.e. group");
+//                groupService.createGroup(scn);
+//                System.out.println("Group created successfully");
+//            }else
     }
 }
