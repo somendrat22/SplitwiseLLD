@@ -34,18 +34,6 @@ public class SplitWiseController {
                 System.out.println("User selected opt 1 i.e. group");
                 groupService.createGroup(scn);
                 System.out.println("Group created successfully");
-            }else if(opt == 2){
-
-            }else if(opt == 3){
-
-            }else if(opt == 4){
-
-            }else{
-                System.out.println("Wrong option entered. Enter value again");
-                continue;
-            }
-
-            System.out.println("Are you satisfied?(Yes/No)");
-        }
+            }else 
     }
 }
