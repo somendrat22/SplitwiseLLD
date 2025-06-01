@@ -5,6 +5,8 @@ import model.Group;
 import java.util.HashMap;
 
 public class GroupDB {
+    int[] arr = new int [n];
+
     HashMap<Integer, Group> groupMap;
     public GroupDB(){
         this.groupMap = new HashMap<>();
