@@ -11,6 +11,8 @@ public class GroupDB {
     public GroupDB(){
         this.groupMap = new HashMap<>();
     }
+    HashMap <Integer,Character> map = new HashMap<>();
+
 
     public int tellTotalGroups(){
         return this.groupMap.size();
